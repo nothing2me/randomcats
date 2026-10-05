@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>random cats gallery</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="scripts/gallery.js" defer></script>
+</head>
+<body>
+
+	<!-- Title -->
+	<header>
+		<h1>random cats gallery random cats gallery random cats gallery random cats gallery this is the gallery of random cats you liked.</h1>
+	</header>
+
+	<!-- Back link -->
+	<a class="button-link" href="index.html">back to liking cats</a>
+
+	<!-- Gallery content filled from liked cats in localStorage -->
+	<main class="gallery-page">
+        <p id="empty-gallery" hidden>u havent liked any cats yet</p>
+        <div id="cat-gallery" class="cat-gallery"></div>
+	</main>
+</body>
+</html>

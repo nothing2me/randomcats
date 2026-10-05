@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>random cats</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="scripts/main.js" defer></script>
+</head>
+<body>
+
+	<!-- Title -->
+	<header>
+		<h1>random cats random cats random cats random cats random cats random cats random cats random cats random cats random cats</h1>
+	</header>
+
+	<!-- Main voting screen: dislike button, image space, and like button -->
+	<main class="image-viewer">
+		<div class="column">
+			<button type="button" id="dislike-button">i don't like this cat.</button>
+		</div>
+
+        <div class="image-column">
+		<div class="image-stage">
+			<!-- Image fetched from the Cat API -->
+			<img id="cat-image" alt="A cat">
+			<!-- Decorative paw accents placed in image -->
+			<img id="paw-accent-1" src="assets/paw.png" alt="Cat paw accent 1">
+			<img id="paw-accent-2" src="assets/paw.png" alt="Cat paw accent 2">
+		</div>
+            <a class="button-link" href="gallery.html">cats you liked</a>
+        </div>
+
+		<div class="column">
+			<button type="button" id="like-button">i like this cat.</button>
+		</div>
+	</main>
+</body>
+
+<footer>
+	<p>&copy; 2023 Noah W. All rights reserved.</p>
+</footer>
+</html>
