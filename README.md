@@ -9,14 +9,13 @@ Then run the included start-server.bat file, and open your browser to http://loc
 Additionally, you can enter your Cat API key in its respective field in main.js (YOUR_API_KEY) IF you want to retrieve cat breed data for alt text. But it's not required to fetch images alone. 
 
 You're set to look at some cats!
-
+```text
            __..--''``---....___   _..._    __
  /// //_.-'    .-/";  `        ``<._  ``.''_ `. / // /
 ///_.-' _..--.'_    \                    `( ) ) // //
 / (_..-' // (< _     ;_..__               ; `' / ///
  / // // //  `-._,_)' // / ``--...____..-' /// / //
-
-
+```
 Data Source:
 The Cat API - https://thecatapi.com/
 
